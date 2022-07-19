@@ -10,7 +10,7 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -19,3 +19,6 @@
 @import 'blocks/promo';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/about';
+
+@import 'base/media';
