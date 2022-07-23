@@ -23,4 +23,16 @@
         font-size: 48px;
         margin-top: 10px;
     }
+    &__section-title {
+        text-align: center;
+        @include before-circle;
+        &::before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+        @include after-divider;
+    }
 }

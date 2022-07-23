@@ -1,23 +1,6 @@
 .experience {
     margin-top: 120px;
     width: 100%;
-    &__title {
-        width: 46px;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        @include before-circle;
-        &::before {
-            left: 5px;
-        }
-    }
-    &__subtitle {
-        width: 480px;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 6px;
-        @include after-divider;
-    }
     &__wrapper {
         padding: 0 85px 0 65px;
         margin-top: 85px;
