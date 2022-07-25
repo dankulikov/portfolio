@@ -3,7 +3,6 @@
     font-size: 36px;
     line-height: 60px;
     color: #000;
-    margin-top: 6px;
     &--fz14 {
         font-size: 14px;
         line-height: 21px;
@@ -18,6 +17,10 @@
     &--fz20 {
         font-size: 20px;
         line-height: 30px;
+    }
+    &--fz36 {
+        font-size: 36px;
+        margin-top: 6px;
     }
     &--fz48 {
         font-size: 48px;

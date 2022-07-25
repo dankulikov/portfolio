@@ -11,7 +11,8 @@
         margin-top: 90px;
         padding: 0 50px;
         display: grid;
-        grid-template-columns: repeat(2, 370px);
+        grid-template: repeat(3, minmax(45px, auto)) / repeat(2, 370px);
+        row-gap: 15px;
         justify-content: space-between;
     }
     &__column {
@@ -21,10 +22,9 @@
         gap: 15px;
     }
     &__item {
-        height: 44px;
         padding-left: 25px;
         display: grid;
-        grid-template: 21px 18px / 186px 121px;
+        grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
         justify-content: space-between;
         align-content: space-between;
         &-name {
